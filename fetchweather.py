@@ -41,7 +41,7 @@ if __name__ == "__main__":
     res.index = res.index - pd.Timedelta(5, "h")                # Adjust UTC time to Montreal's time zone
 
     curr_time = datetime.datetime.now()                         
-    out_name = "Previsions_Montreal_{}.csv".format(curr_time.strftime("%Y-%m-%d_%H:%M"))
+    out_name = "Previsions_Montreal_{}.csv".format(curr_time.strftime("%Y-%m-%d_%Hh%Mm"))
 
     if not os.path.isdir(args.output):          # create the output folder if it does not exist
 
