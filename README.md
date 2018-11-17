@@ -7,7 +7,7 @@ Have you ever wished you could get Environment Canada's hourly forecasts for Mon
 3. Clone or dowload this repo and navigate to it on command line
 4. Install the dependencies with pip:
 ```bash
-$ pip install requirements.txt
+$ pip install -r requirements.txt
 ```
 5. Profit !
 
